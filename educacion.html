@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="author" content="kewin">
+	<meta name="description" content="hoja-de-vida">
+	<title>Hoja de Vida</title>
+</head>
+<body>
+	<header>
+		<svg style="border: 2px solid black" width="20%">
+			<image xlink:href="img/iniciales.svg" width="100%"></image>
+		</svg>
+		<h1>Hoja de Vida</h1>
+			<h2>Kewin Estiv Valbuena Rueda</h2>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educacion</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</nav>
+
+	<h2>Educacion</h2>
+		<table border="1" cellspacing="0" cellpadding="0">
+			<tr>
+				<th>Año</th>
+				<th>Institucion</th>
+				<th>Lugar</th>
+				<th>Culmino?</th>
+			</tr>
+			<tr>
+				<td>2010</td>
+				<td>ETI</td>
+				<td>Pto Fijo Venezuela</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2017</td>
+				<td>ULA</td>
+				<td>Merida Venezuela</td>
+				<td>no</td>
+			</tr>
+			<tr>
+				<td>2018</td>
+				<td>NextU</td>
+				<td>Bucaramanga Colombia</td>
+				<td>En Curso</td>
+			</tr>
+		</table>
+		
+	<h2>Agregar Estudios</h2>
+		<form>
+			<label for="anho">año:</label>
+			<select name="anho" id="anho">
+				<option>2016</option>
+				<option>2017</option>
+				<option>2018</option>
+			</select>
+			<br><br>
+			<label for="Institucion">Institucion:</label>
+				<input type="text" required>
+			<br><br>
+			<label for="lugar">Lugar:</label>
+				<textarea name="lugar" id="lugar" cols="30" rows="10"></textarea>
+			<br>
+			<p>Culmino?</p>
+				<label for="culmino">Si</label>
+					<input type="radio" name="culmino">
+				<label for="culmino">No</label>
+					<input type="radio" name="culmino">
+			<br>	
+			<input type="submit" value="Enviar">		
+		</form>
+
+	<footer>
+		<h2>Contactos</h2>
+			<ul>
+				<li>kewinstiv23@gmail.com</li>
+				<li>(+57) 317 822 1337</li>
+				<li><a href="https://www.facebook.com/kewinstiv" target="_blank">facebook</a></li>
+			</ul>
+	</footer>		
+
+
+</body>
+</html>
